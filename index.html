@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+    <head>
+        <script src="./js/kleurplaat.js" defer></script>
+        <script src="./js/main.js" defer></script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Opdracht Kleurplaat</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body class="body">
+        <div class="achtergrondkleur">
+            <div class="wikkel">
+                <header class="header container">
+
+                    <h1 class="titel">KLEURPLAAT</h1>
+                    
+                </header>
+                
+                <main id="main" class="main">
+
+                    <canvas class="canvas" id="canvas" hidden>
+                        <!-- Hier komt de kleurplaat met JavaScript. -->
+                    </canvas>
+
+                </main>
+
+                <aside class="aside container">
+                    
+                    <section class="select--velden">
+                        <div class="select--veld kleur">
+                            <select name="kies kleur" id="kleuren">
+                                <option class="default" value="default">(kies kleur)</option>
+                                <option value="rood" id="option--kleur">rood</option>
+                                <option value="groen" id="option--kleur">groen</option>
+                                <option value="blauw" id="option--kleur">blauw</option>
+                            </select>
+                        </div>
+
+                        <div class="select--veld grootte">
+                            <select name="grootte" id="grootte">
+                                <option class="default" value="default">(kies grootte tekenblad)</option>
+                                <option value="groot">groot</option>
+                                <option value="medium">medium</option>
+                                <option value="klein">klein</option>
+                            </select>
+                        </div>
+
+                    </section>
+                    <!-- einde select--velden -->
+                 
+                    <input type="range" min="2" max="50" name="dikte penseel" id="dikte">
+                    
+                    <section class="knoppen">
+                        <button class="knop nieuw" id="nieuw" disabled>NIEUW BLAD</button>
+                    </section>
+
+                </aside>
+
+            </div>
+            <!-- einde wikkel -->
+        </div>
+        <!-- einde achtergrondkleur -->
+    </body>
+</html>

@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+body {
+    background-color: dimgray;
+
+}
+
+header {
+    text-align: center;
+
+}
+
+.box {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin: 0 5px 15px 0;
+    border: 1px solid black;
+    cursor: pointer;
+}
+#colors + h3  {
+    margin-left: 10px;
+}
+.rood {
+    background-color: red;
+}
+
+.groen {
+    background-color: green;
+}
+
+.blauw {
+    background-color: blue;
+}
+.wit {
+    background-color: white;
+}
+
+button {
+    display: block;
+    margin: 5px 0;
+}
+
+.grijs {
+    background-color: lightgray;
+}
+#table {
+    margin: 20px auto;
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+#table td {
+    table-layout:fixed;
+    line-height: 18px;
+    overflow: hidden;
+    width:20px;
+    cursor:pointer;
+}
+#sheet {
+    height: 800px;
+}
+
+#keuzeReset {
+    position: relative;
+
+}
+img {
+    position: absolute;
+padding-left: 1px;
+}
+.fout {
+    color: red;
+}

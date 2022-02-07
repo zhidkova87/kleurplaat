@@ -1,0 +1,60 @@
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+html {
+    box-sizing: border-box;
+}
+.achtergrondkleur {
+    height: 100vh;
+    background-color: cadetblue;
+}
+.wikkel {
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    padding: 1em 0;
+}
+.titel {
+    color: rgb(212, 212, 212);
+}
+.aside {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.select--velden {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.select--veld:nth-of-type(2) {
+    margin-left: 2em;
+}
+.default {
+    color: rgba(0, 0, 0, .5);
+}
+.knoppen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.knop {
+    padding: .5em 1em;   
+}
+.knop:nth-of-type(2) {
+    margin-left: 2em;
+}
+
+canvas {
+    border-radius: 5px;
+}
